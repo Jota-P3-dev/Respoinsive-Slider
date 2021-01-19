@@ -1,0 +1,111 @@
+/**/ 
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(/img/pexels-anton-h-145707.jpg);
+    background-position:center; 
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+/* Navbar */
+.navbar{
+    height: 12%;
+    display: flex;
+	align-items: center;
+	font-family: 'Source Sans Pro';
+}
+.logo{
+    cursor: pointer;
+}
+.menu-icon{
+    width:30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.navbar nav ul li a{
+    text-decoration:none;
+    color: rgb(202, 202, 202);
+    font-size: 20px;
+}
+
+/* Texto da Esquerda*/
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+.col h1{
+    font-size:100px;
+	color:rgba(158, 0, 0, 0.712);
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.col p{
+    color: #fff;
+    font-size:20px;
+	line-height:12px;
+	font-family: 'Source Sans Pro',sans-serif;
+}
+
+.col button{
+    width: 180px;
+    color: #000;
+    font-size:15px;
+    padding: 12px 0;
+    border: 0;
+    border-radius:20px;
+    outline:none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.col button:hover{
+    transform:translateY(-5px);
+    background: -webkit-linear-gradient(to left, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* Artistas */ 
+
+.txtprin{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.txtprin h1{
+	padding-top: 3%;
+	padding-bottom:1%;
+	font-size: 2.4rem;
+	color: rgb(41, 41, 41);
+	font-family: 'Source Sans Pro',sans-serif;
+	border-bottom: solid 3px rgb(155, 2, 2);
+	margin-bottom: 1.5rem;
+}
+
+ul{
+	list-style:none;
+}
+a{
+    text-decoration:none;
+}
